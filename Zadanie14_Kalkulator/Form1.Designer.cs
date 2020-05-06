@@ -47,12 +47,13 @@
             this.btn_Clear = new System.Windows.Forms.Button();
             this.btn_equals = new System.Windows.Forms.Button();
             this.btn_ClearEntry = new System.Windows.Forms.Button();
+            this.lbl_calculation = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn_1
             // 
             this.btn_1.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btn_1.Location = new System.Drawing.Point(15, 90);
+            this.btn_1.Location = new System.Drawing.Point(16, 145);
             this.btn_1.Name = "btn_1";
             this.btn_1.Size = new System.Drawing.Size(60, 60);
             this.btn_1.TabIndex = 0;
@@ -63,7 +64,7 @@
             // btn_4
             // 
             this.btn_4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btn_4.Location = new System.Drawing.Point(15, 165);
+            this.btn_4.Location = new System.Drawing.Point(16, 220);
             this.btn_4.Name = "btn_4";
             this.btn_4.Size = new System.Drawing.Size(60, 60);
             this.btn_4.TabIndex = 1;
@@ -74,7 +75,7 @@
             // btn_7
             // 
             this.btn_7.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btn_7.Location = new System.Drawing.Point(15, 240);
+            this.btn_7.Location = new System.Drawing.Point(16, 295);
             this.btn_7.Name = "btn_7";
             this.btn_7.Size = new System.Drawing.Size(60, 60);
             this.btn_7.TabIndex = 2;
@@ -85,7 +86,7 @@
             // txtB_Result
             // 
             this.txtB_Result.Font = new System.Drawing.Font("Impact", 32.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.txtB_Result.Location = new System.Drawing.Point(15, 15);
+            this.txtB_Result.Location = new System.Drawing.Point(16, 70);
             this.txtB_Result.Name = "txtB_Result";
             this.txtB_Result.Size = new System.Drawing.Size(360, 60);
             this.txtB_Result.TabIndex = 3;
@@ -95,7 +96,7 @@
             // btn_5
             // 
             this.btn_5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btn_5.Location = new System.Drawing.Point(90, 165);
+            this.btn_5.Location = new System.Drawing.Point(91, 220);
             this.btn_5.Name = "btn_5";
             this.btn_5.Size = new System.Drawing.Size(60, 60);
             this.btn_5.TabIndex = 4;
@@ -106,7 +107,7 @@
             // btn_8
             // 
             this.btn_8.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btn_8.Location = new System.Drawing.Point(90, 240);
+            this.btn_8.Location = new System.Drawing.Point(91, 295);
             this.btn_8.Name = "btn_8";
             this.btn_8.Size = new System.Drawing.Size(60, 60);
             this.btn_8.TabIndex = 5;
@@ -117,7 +118,7 @@
             // btn_2
             // 
             this.btn_2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btn_2.Location = new System.Drawing.Point(90, 90);
+            this.btn_2.Location = new System.Drawing.Point(91, 145);
             this.btn_2.Name = "btn_2";
             this.btn_2.Size = new System.Drawing.Size(60, 60);
             this.btn_2.TabIndex = 6;
@@ -128,7 +129,7 @@
             // btn_3
             // 
             this.btn_3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btn_3.Location = new System.Drawing.Point(165, 90);
+            this.btn_3.Location = new System.Drawing.Point(166, 145);
             this.btn_3.Name = "btn_3";
             this.btn_3.Size = new System.Drawing.Size(60, 60);
             this.btn_3.TabIndex = 7;
@@ -139,7 +140,7 @@
             // btn_6
             // 
             this.btn_6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btn_6.Location = new System.Drawing.Point(165, 165);
+            this.btn_6.Location = new System.Drawing.Point(166, 220);
             this.btn_6.Name = "btn_6";
             this.btn_6.Size = new System.Drawing.Size(60, 60);
             this.btn_6.TabIndex = 8;
@@ -150,7 +151,7 @@
             // btn_9
             // 
             this.btn_9.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btn_9.Location = new System.Drawing.Point(165, 240);
+            this.btn_9.Location = new System.Drawing.Point(166, 295);
             this.btn_9.Name = "btn_9";
             this.btn_9.Size = new System.Drawing.Size(60, 60);
             this.btn_9.TabIndex = 9;
@@ -161,7 +162,7 @@
             // btn_0
             // 
             this.btn_0.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btn_0.Location = new System.Drawing.Point(240, 90);
+            this.btn_0.Location = new System.Drawing.Point(241, 145);
             this.btn_0.Name = "btn_0";
             this.btn_0.Size = new System.Drawing.Size(60, 60);
             this.btn_0.TabIndex = 10;
@@ -172,7 +173,7 @@
             // btn_plus
             // 
             this.btn_plus.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btn_plus.Location = new System.Drawing.Point(240, 165);
+            this.btn_plus.Location = new System.Drawing.Point(241, 220);
             this.btn_plus.Name = "btn_plus";
             this.btn_plus.Size = new System.Drawing.Size(60, 60);
             this.btn_plus.TabIndex = 11;
@@ -183,7 +184,7 @@
             // btn_minus
             // 
             this.btn_minus.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btn_minus.Location = new System.Drawing.Point(240, 240);
+            this.btn_minus.Location = new System.Drawing.Point(241, 295);
             this.btn_minus.Name = "btn_minus";
             this.btn_minus.Size = new System.Drawing.Size(60, 60);
             this.btn_minus.TabIndex = 12;
@@ -194,7 +195,7 @@
             // btn_comma
             // 
             this.btn_comma.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btn_comma.Location = new System.Drawing.Point(315, 90);
+            this.btn_comma.Location = new System.Drawing.Point(316, 145);
             this.btn_comma.Name = "btn_comma";
             this.btn_comma.Size = new System.Drawing.Size(60, 60);
             this.btn_comma.TabIndex = 13;
@@ -205,7 +206,7 @@
             // btn_multiple
             // 
             this.btn_multiple.Font = new System.Drawing.Font("Impact", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btn_multiple.Location = new System.Drawing.Point(315, 165);
+            this.btn_multiple.Location = new System.Drawing.Point(316, 220);
             this.btn_multiple.Name = "btn_multiple";
             this.btn_multiple.Size = new System.Drawing.Size(60, 60);
             this.btn_multiple.TabIndex = 14;
@@ -216,7 +217,7 @@
             // btn_divide
             // 
             this.btn_divide.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btn_divide.Location = new System.Drawing.Point(315, 240);
+            this.btn_divide.Location = new System.Drawing.Point(316, 295);
             this.btn_divide.Name = "btn_divide";
             this.btn_divide.Size = new System.Drawing.Size(60, 60);
             this.btn_divide.TabIndex = 15;
@@ -227,18 +228,18 @@
             // btn_Clear
             // 
             this.btn_Clear.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Clear.Location = new System.Drawing.Point(390, 90);
+            this.btn_Clear.Location = new System.Drawing.Point(391, 145);
             this.btn_Clear.Name = "btn_Clear";
             this.btn_Clear.Size = new System.Drawing.Size(60, 60);
             this.btn_Clear.TabIndex = 16;
             this.btn_Clear.Text = "C";
             this.btn_Clear.UseVisualStyleBackColor = true;
-            this.btn_Clear.Click += new System.EventHandler(this.button1_Click);
+            this.btn_Clear.Click += new System.EventHandler(this.btn_ClearClick);
             // 
             // btn_equals
             // 
             this.btn_equals.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btn_equals.Location = new System.Drawing.Point(390, 165);
+            this.btn_equals.Location = new System.Drawing.Point(391, 220);
             this.btn_equals.Name = "btn_equals";
             this.btn_equals.Size = new System.Drawing.Size(60, 135);
             this.btn_equals.TabIndex = 17;
@@ -249,7 +250,7 @@
             // btn_ClearEntry
             // 
             this.btn_ClearEntry.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_ClearEntry.Location = new System.Drawing.Point(390, 15);
+            this.btn_ClearEntry.Location = new System.Drawing.Point(391, 70);
             this.btn_ClearEntry.Name = "btn_ClearEntry";
             this.btn_ClearEntry.Size = new System.Drawing.Size(60, 60);
             this.btn_ClearEntry.TabIndex = 18;
@@ -257,11 +258,22 @@
             this.btn_ClearEntry.UseVisualStyleBackColor = true;
             this.btn_ClearEntry.Click += new System.EventHandler(this.btn_ClearEntry_Click);
             // 
+            // lbl_calculation
+            // 
+            this.lbl_calculation.AutoSize = true;
+            this.lbl_calculation.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lbl_calculation.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lbl_calculation.Location = new System.Drawing.Point(12, 21);
+            this.lbl_calculation.Name = "lbl_calculation";
+            this.lbl_calculation.Size = new System.Drawing.Size(0, 36);
+            this.lbl_calculation.TabIndex = 19;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(464, 312);
+            this.ClientSize = new System.Drawing.Size(464, 372);
+            this.Controls.Add(this.lbl_calculation);
             this.Controls.Add(this.btn_ClearEntry);
             this.Controls.Add(this.btn_equals);
             this.Controls.Add(this.btn_Clear);
@@ -282,8 +294,6 @@
             this.Controls.Add(this.btn_4);
             this.Controls.Add(this.btn_1);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(480, 350);
-            this.MinimumSize = new System.Drawing.Size(480, 350);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Basic Calculator";
@@ -313,6 +323,7 @@
         private System.Windows.Forms.Button btn_Clear;
         private System.Windows.Forms.Button btn_equals;
         private System.Windows.Forms.Button btn_ClearEntry;
+        private System.Windows.Forms.Label lbl_calculation;
     }
 }
 
