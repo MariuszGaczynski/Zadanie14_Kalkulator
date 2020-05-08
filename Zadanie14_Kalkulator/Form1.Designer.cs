@@ -93,6 +93,7 @@
             this.txtB_Result.Name = "txtB_Result";
             this.txtB_Result.Size = new System.Drawing.Size(360, 60);
             this.txtB_Result.TabIndex = 3;
+            this.txtB_Result.TabStop = false;
             this.txtB_Result.Text = "0";
             this.txtB_Result.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
