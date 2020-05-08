@@ -142,5 +142,90 @@ namespace Zadanie14_Kalkulator
 
 
         }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MainForm_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            switch (e.KeyChar.ToString())
+            {
+                case "1":
+                    btn_1.PerformClick();
+                    break;
+                case "2":
+                    btn_2.PerformClick();
+                    break;
+                case "3":
+                    btn_3.PerformClick();
+                    break;
+                case "4":
+                    btn_4.PerformClick();
+                    break;
+                case "5":
+                    btn_5.PerformClick();
+                    break;
+                case "6":
+                    btn_6.PerformClick();
+                    break;
+                case "7":
+                    btn_7.PerformClick();
+                    break;
+                case "8":
+                    btn_8.PerformClick();
+                    break;
+                case "9":
+                    btn_9.PerformClick();
+                    break;
+                case "0":
+                    btn_0.PerformClick();
+                    break;
+                case "+":
+                    btn_plus.PerformClick();
+                    break;
+                case "-":
+                    btn_minus.PerformClick();
+                    break;
+                case "*":
+                    btn_multiple.PerformClick();
+                    break;
+                case "/":
+                    btn_divide.PerformClick();
+                    break;
+                case ",":
+                    btn_comma.PerformClick();
+                    break;
+                case "=":
+                  btn_equals.PerformClick();
+                    break;
+
+                case "escape":
+                   btn_Clear.PerformClick();
+                   break;
+
+
+                default:
+                    break;
+
+            }
+            switch (e.KeyChar)
+            {
+
+                //case (char)Keys.Enter:
+                //    btn_equals.PerformClick();
+                //    break;
+                //case (char)Keys.Return:
+                //    btn_equals.PerformClick();
+                //    break;
+                case (char)Keys.Escape:
+                    btn_Clear.PerformClick();
+                    break;
+                case (char)Keys.Back:
+                    btn_ClearEntry.PerformClick();
+                    break;
+            }
+            }
     }
 }
